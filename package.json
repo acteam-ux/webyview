@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "NODE_ENV=production vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "1.9.7",
+    "vuepress": "1.9.7"
+  }
+}
